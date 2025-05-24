@@ -19,9 +19,9 @@
 import time
 import bittensor as bt
 
-from template.protocol import Strategy
-from template.validator.reward import get_rewards
-from template.utils.uids import get_random_uids
+from neurons.template.protocol import Strategy
+from neurons.template.validator.reward import get_rewards
+from neurons.template.utils.uids import get_random_uids
 
 
 async def forward(self):
